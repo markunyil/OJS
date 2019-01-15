@@ -1,0 +1,171 @@
+/*@import 'https://fonts.googleapis.com/css?family=Cinzel|Merriweather|Open+Sans:400,700';*/
+@import 'https://fonts.googleapis.com/css?family=EB+Garamond';
+
+/* Pengaturan utama teks seluruh halaman */
+
+
+h1,h2,h3,h4,h5,h6 {
+	/*font-family: 'EB Garamond', serif !important;*/
+	margin-top: 1.6rem !important;
+}
+
+
+/* Pengaturan Tulisan Description */
+#journalDescription > p:first-child:first-letter, #pkp-about-history > p:first-child:first-letter {
+	float: left;
+	color: #333;
+	font-size: 75px;
+	line-height: 60px;
+	padding: 5px 10px 0 0;
+}
+
+/* Pengaturan Gambar disebelah tulisan deskripsi */
+#homepageImage {
+	float: right;
+	width: 30%;
+	margin-top: -1em;
+	margin-left: 12px;
+	margin-bottom: 12px;
+	text-align: right;
+}
+
+#header h1{
+	margin-top:0 !important;
+	text-transform: uppercase;
+	/*font-size: 4em;*/
+	/*font-family: 'EB Garamond', serif !important;*/
+	text-align: center;
+}
+
+#container{
+	margin: 0 auto;
+	padding: 0;
+	min-width: 730px !important;
+	width: 100% !important;
+	/*background:url(../../../../files/journals/67/theme/nasty_fabric.png);		/*mengganti background gambar*/
+	background-color: white;
+	display: inline-block;
+}
+
+/* Pengaturan Menu Utama*/
+#navbar{
+	/*untuk warna menu bar*/
+	background-color: #182c66;
+	margin-bottom: 30px;
+}
+
+#navbar a, #navbar a:link, #navbar a:visited {
+	/*font-family: 'Merriweather', serif !important;*/
+	/*font-family: 'EB Garamond', serif !important;*/
+	text-transform: none;
+	/*font-size: 1.2em !important;*/
+}
+
+#navbar a:hover {
+	background-color: #2A3F7D;		/*untuk warna menu bar*/
+}
+
+#link a:active,a:link,a:visited{
+	color:#2c5ef1;				/*untuk warna tulisan yang berisi link*/
+	text-decoration:none
+}
+
+/* Pengaturan Side Menu yang menggunakan <ul class="sidemenu full"> */
+ul.sidemenu{
+	margin-top: -12px;
+	padding-left: 0px !important;
+}
+
+ul.sidemenu.full{
+	margin: -12px -12px 0 -12px;
+}
+
+ul.sidemenu li:before{
+	display: none;
+}
+
+ul.sidemenu li{
+	padding: 0;
+}
+
+ul.sidemenu li:first-child a{
+	border-top:1px solid #08194C;		/*untuk warna pembatas menu paling atas dengan menu nav*/
+}
+
+ul.sidemenu li a{
+	display: block;
+	padding: 0.7em 12px 0.7em 12px;
+	border-bottom: 1px solid #08194C;	/*untuk warna garis sidemenu*/
+	background-color: #182c66;		/*untuk warna background sidemenu*/
+	text-decoration: none;
+	color: #FFF;				/*untuk warna tulisan sidemenu*/
+}
+
+ul.sidemenu li a:hover {
+	background-color: #2A3F7D;		/*untuk warna sidemenu ketika pointer mouse mengarah ke menu*/
+	text-decoration: underline;
+}
+
+.block li:before {
+  content: "";
+  border-color: transparent #306998;		/*untuk warna format bulleting*/
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -1em;
+  top: 0.9em;
+  position: relative;
+}
+
+/* Pengaturan Title Block bawaan */
+#leftSidebar div.block span.blockTitle, #rightSidebar div.block span.blockTitle {	
+	/*font-family: 'EB Garamond', serif !important;*/
+	background-color: #182c66 !important;		/*untuk warna menu block*/
+	color: #FFF !important;
+	box-shadow: 0px 2px 5px -2px rgba(51,51,51,1);
+}
+
+/* Gambar Cover Table of Content*/
+#issueCoverImage img {
+	display: block;
+	border: 0;
+	max-width: 300px;
+	height: auto;
+}
+
+/*Buat kotak Quote yang menggunakan class="intro"*/
+.intro {
+  background-color: #f1faf5;
+  border: 1px dotted SeaGreen;
+  padding-bottom: 6px;
+  padding: 15px;
+  display: inline-block;
+}
+.intro ul {
+  margin: 0;
+  padding-left: 1em;
+}
+.color-box {
+  display: block;
+  width: 60px;
+  height: 40px;
+  float: left;
+  margin-right: 5px;
+}
+.color1 {
+  background-color: Gold;
+}
+.color1-light {
+  background-color: #fffbe5;
+}
+.color2 {
+  background-color: SeaGreen;
+}
+.color2-light {
+  background-color: #f1faf5;
+}
+.color-grey-light {
+  background-color: #f4f4f4;
+}
